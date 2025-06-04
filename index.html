@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Investigación ECBTI - UNAD</title>
+    <link rel="icon" href="https://www.unad.edu.co/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+        .banner-blanco {
+        background-color: white;
+        }
+
+        .banner-unad {
+        background-color: #005883;
+        color: white;
+        }
+
+        .nav-unad a {
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+        }
+
+        .nav-unad a:hover {
+        text-decoration: none;
+        }
+
+        .seccion-unad {
+        padding: 3rem 1rem;
+        }
+
+        .titulo-seccion {
+        color: #001b4c;
+        }
+
+        .banner-imagen {
+        width: 100%;
+        height: 300px;
+        background-image:url(img/ECBTI-banner.jpg);
+        background-size: cover;
+        }
+
+        .btn-link i.fas.fa-bars {
+        font-size: 1.5rem;
+        color: white;
+        }
+
+        .nav-unad i.fas.fa-home {
+        color: white;
+        }
+
+        .nav-unad a {
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+        }
+
+        .nav-unad a:hover {
+        text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header class="banner-blanco py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a href="index.html">
+            <img src="img/logo-banner-unad.png" alt="Logo UNAD" class="logo-unad" height="80" />
+        </a>
+        <div class="d-flex">
+            <a href="#" class="enlace-banner"><i class="fas fa-sitemap"></i> Unidades</a>
+            <a href="#" class="enlace-banner"><i class="fas fa-address-book"></i> Directorio</a>
+            <a href="#" class="enlace-banner"><i class="fas fa-map-marker-alt"></i> Centros</a>
+        </div>
+    </div>
+</header>
+
+<header class="banner-unad py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+    <!-- Menú escritorio -->
+    <nav class="nav-unad d-none d-md-flex justify-content-center w-100">
+        <a href="#lineas">Líneas y Macrolíneas</a>
+        <a href="grupos.html">Grupos</a>
+        <a href="#Semilleros">Semilleros</a>
+        <a href="procesos.html">Procesos</a>
+        <a href="convocatorias.html">Convocatorias</a>
+        <a href="#comite">Comité</a>
+    </nav>
+
+    <!-- Botón hamburguesa móvil -->
+        <button class="btn btn-link text-white d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#menuUNAD">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Menú móvil -->
+    <div class="collapse d-md-none mt-2" id="menuUNAD">
+        <div class="container nav-unad flex-column">
+        <a href="#home" class="py-2">
+            <i class="fas fa-home me-2"></i>Inicio
+        </a>
+            <a href="#macrolineas" class="py-1">Macrolíneas y Líneas</a>
+            <a href="grupos.html" class="py-1">Grupos</a>
+            <a href="#semilleros" class="py-1">Semilleros</a>
+            <a href="procesos.html" class="py-1">Procesos</a>
+            <a href="convocatorias.html" class="py-1">Convocatorias</a>
+            <a href="#comite" class="py-1">Comité</a>
+        </div>
+    </div>
+</header>
+
+<!-- Imagen de banner -->
+<div class="banner-imagen"></div>
+
+<!-- Sección Bienvenida -->
+<section id="Bienvenida" class="seccion-unad container my-5">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <h2 class="titulo-seccion-bienvenida">
+            ¡Bienvenido al espacio de investigación de la Escuela de Ciencias Básicas, Tecnología e Ingeniería!
+            </h2>
+        </div>
+        <div class="col-12 col-md-6">
+            <p>
+            En esta unidad académica, la investigación es clave para fomentar el pensamiento crítico,
+            la innovación y el compromiso social. Docentes, estudiantes, semilleros y grupos de
+            investigación trabajan juntos en soluciones para los retos del país y del mundo,
+            siguiendo el modelo pedagógico unadista. En esta plataforma se presentan las macrolíneas
+            y líneas de investigación, grupos reconocidos, semilleros activos y la información necesaria
+            para participar en los procesos investigativos.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Visión -->
+<section id="vision" class="seccion-vision py-5">
+    <div class="container">
+        <div class="row align-items-center">
+        <!-- Título: primero en mobile, segundo en desktop -->
+        <div class="col-12 col-md-6 order-1 order-md-2 text-md-end">
+            <h2 class="titulo-vision">
+            Nuestra visión investigativa
+            </h2>
+        </div>
+        <!-- Párrafo: segundo en mobile, primero en desktop -->
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                <p class="texto-vision">
+            La investigación en la Escuela de Ciencias Básicas, Tecnología e
+            Ingeniería (ECBTI) se orienta a fortalecer el desarrollo tecnológico
+            y científico, integrando conocimientos desde diversas disciplinas para abordar retos locales y nacionales.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="pilares-investigativos" class="pilares-section py-5 text-center">
+        <div class="container">
+        <h2 class="titulo-pilares mb-5">Pilares Investigativos</h2>
+        <div class="row justify-content-center">
+            
+            <!-- Pilar 1 -->
+            <div class="col-12 col-md-6 col-lg-5 mb-4">
+            <div class="pilar-box d-flex align-items-center">
+                <div class="numero-pilar">1</div>
+                <div class="texto-pilar text-start">
+                <strong>Innovación sostenible</strong><br>
+                Creación de soluciones que impacten positivamente el entorno
+                </div>
+            </div>
+            </div>
+    
+            <!-- Pilar 2 -->
+            <div class="col-12 col-md-6 col-lg-5 mb-4">
+            <div class="pilar-box d-flex align-items-center">
+                <div class="numero-pilar">2</div>
+                <div class="texto-pilar text-start">
+                <strong>Interdisciplinariedad</strong><br>
+                Integración entre ingeniería, Ciencias Básicas, aplicadas y Tecnología
+                </div>
+            </div>
+            </div>
+    
+            <!-- Pilar 3 -->
+            <div class="col-12 col-md-6 col-lg-5 mb-4">
+            <div class="pilar-box d-flex align-items-center">
+                <div class="numero-pilar">3</div>
+                <div class="texto-pilar text-start">
+                <strong>Cultura investigativa</strong><br>
+                Formación de investigadores y semilleristas con visión ética y crítica
+                </div>
+            </div>
+            </div>
+    
+            <!-- Pilar 4 -->
+            <div class="col-12 col-md-6 col-lg-5 mb-4">
+            <div class="pilar-box d-flex align-items-center">
+                <div class="numero-pilar">4</div>
+                <div class="texto-pilar text-start">
+                <strong>Transferencia de conocimiento</strong><br>
+                Impacto real en comunidades y transformación social
+                </div>
+            </div>
+            </div>
+    
+        </div>
+        </div>
+</section>
+
+<section id="lineas-investigacion" class="lineas-investigacion">
+    <div class="container-fluid">
+        <div class="row intro-lineas">
+            <div class="col-12 col-md-8 offset-md-2">
+                <h2 class="titulo-lineas">Nuestra líneas de investigación</h2>
+                <p class="texto-lineas">
+                    Conformada por 13 líneas en cuanto son apalancadas por las cadenas de formación,
+                    los programas y están articuladas a los grupos de investigación e innovación de la Escuela,
+                    según su especialidad.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Líneas de investigación -->
+    <div class="container-fluid">
+        <!-- Línea 1 -->
+        <div class="row linea-investigacion d-flex justify-content-end align-items-center text-white"
+            style="background-image: url('img/Líneas/Ciencia-de-datos.jpg'); background-size: cover; background-position: center; min-height: 200px;">
+        <div class="col-12 col-md-6 text-end p-4">
+            <h3>1. Ciencia de Datos y Sistemas Complejos</h3>
+        </div>
+        </div>
+
+        <!-- Línea 2 -->
+        <div class="row linea-investigacion d-flex justify-content-start align-items-center text-white"
+            style="background-image: url('img/Líneas/Ciencias-naturales.webp'); background-size: cover; background-position: center; min-height: 200px;">
+        <div class="col-12 col-md-6 text-start p-4">
+            <h3>2. Ciencias Naturales para el Desarrollo Sostenible</h3>
+        </div>
+        </div>
+
+        <!-- Línea 3 -->
+        <div class="row linea-investigacion d-flex justify-content-end align-items-center text-white"
+            style="background-image: url('img/Líneas/Energias-desarrollo.jpg'); background-size: cover; background-position: center; min-height: 200px;">
+        <div class="col-12 col-md-6 text-end p-4">
+            <h3>3. Energías y desarrollo sostenible</h3>
+        </div>
+        </div>
+
+        <!-- Línea 4 -->
+        <div class="row linea-investigacion d-flex justify-content-start align-items-center text-white"
+            style="background-image: url('img/Líneas/Robotica-automatización.jpg'); background-size: cover; background-position: center; min-height: 200px;">
+        <div class="col-12 col-md-6 text-start p-4">
+            <h3>4. Electrónica, Automatización y Robótica</h3>
+        </div>
+        </div>
+
+        <!-- Línea 5 -->
+        <div class="row linea-investigacion d-flex justify-content-end align-items-center text-white"
+            style="background-image: url('img/Líneas/Infraestructura-inteligente.jpeg'); background-size: cover; background-position: center; min-height: 200px;">
+        <div class="col-12 col-md-6 text-end p-4">
+            <h3>5. Infraestructura Tecnológica y Transformación Digital Inteligente</h3>
+        </div>
+        </div>
+
+        <!-- Línea 6 -->
+        <div class="row linea-investigacion d-flex justify-content-start align-items-center text-white"
+            style="background-image: url('img/Líneas/Desarrollo-software.jpg'); background-size: cover; background-position: center; min-height: 200px;">
+        <div class="col-12 col-md-6 text-start p-4">
+            <h3>6. Desarrollo de software</h3>
+        </div>
+        </div>
+
+        <!-- Línea 7 -->
+        <div class="row linea-investigacion d-flex justify-content-end align-items-center text-white"
+            style="background-image: url('img/Líneas/Ciberseguridad.jpg'); background-size: cover; background-position: center; min-height: 200px;">
+        <div class="col-12 col-md-6 text-end p-4">
+            <h3>7. Ciberseguridad</h3>
+        </div>
+        </div>
+
+        <!-- Aquí puedes continuar con las líneas 8 a 13 usando el mismo patrón, alternando justify-content-start / end -->
+    </div>
+</section>
+
+<section id="macrolíneas" class="pilares-section py-5 text-center">
+    <div class="container">
+        <h2 class="titulo-pilares mb-4">Macrolíneas de investigación e Innovación</h2>
+        <p class="mb-5">
+        Las líneas y macrolíneas de investigación e innovación de la ECBTI guían las acciones de los programas y grupos de investigación, con proyección nacional e internacional. Su enfoque amplio permite abordar retos regionales y globales, fortaleciendo iniciativas académicas de calidad que enriquecen el proceso formativo de la escuela.
+        </p>
+
+        <!-- Contenedor flexible responsive -->
+        <div class="d-flex flex-column flex-md-row flex-wrap justify-content-center gap-4">
+        
+        <!-- Pilar 1 -->
+        <div class="macrolineas-box d-flex align-items-center p-3">
+            <div class="numero-macrolineas me-3">1</div>
+            <div class="texto-macrolíneas text-start">
+            <strong>Desarrollo tecnológico e Innovación</strong><br>
+            para la sostenibilidad de los territorios
+            </div>
+        </div>
+
+        <!-- Pilar 2 -->
+        <div class="macrolineas-box d-flex align-items-center p-3">
+            <div class="numero-macrolineas me-3">2</div>
+            <div class="texto-macrolíneas text-start">
+            <strong>Desarrollo económico y social</strong><br>
+            basado en ciencia, tecnología e ingeniería aplicadas
+            </div>
+        </div>
+
+        <!-- Pilar 3 -->
+        <div class="macrolineas-box d-flex align-items-center p-3">
+            <div class="numero-macrolineas me-3">3</div>
+            <div class="texto-macrolíneas text-start">
+            <strong>Educación y procesos de aprendizaje </strong><br>
+            desde las ciencias fundamentales e ingeniería
+            </div>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="conoce" class="conoce-section text-white d-flex align-items-center">
+    <div class="container py-5">
+        <div class="row flex-column flex-md-row align-items-center justify-content-between">
+        <!-- Botones a la izquierda -->
+        <div class="col-md-5 mb-4 mb-md-0 text-center text-md-start">
+            <a href="grupos.html" class="btn btn-outline-light mb-3 w-100" target="_blank" rel="noopener noreferrer">Grupos de investigación</a>
+            <a href="https://investigacion.unad.edu.co/semilleros" class="btn btn-outline-light mb-3 w-100" target="_blank" rel="noopener noreferrer">Semilleros</a>
+            <a href="https://www.unad.edu.co/investigacion/cadenas" class="btn btn-outline-light w-100" target="_blank" rel="noopener noreferrer">Cadenas de formación</a>
+        </div>
+        <!-- Texto a la derecha -->
+        <div class="col-md-6 text-center text-md-start">
+            <h2 class="fw-bold">Conoce</h2>
+            <p class="lead">
+            nuestros grupos, semilleros y cadenas de formación
+            </p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-unad">
+    <div class="container py-4">
+        <div class="row">
+            <!-- Información de contacto -->
+            <div class="col-md-4 mb-3">
+            <h5>Datos de Contacto</h5>
+            <p>
+                Teléfono: 3182194645<br>
+                Sede Principal: Calle 14 Sur # 14 – 23 Barrio Restrepo, Bogotá - Colombia.
+            </p>
+            </div>
+    
+            <!-- Enlaces institucionales -->
+            <div class="col-md-4 mb-3">
+            <h5>Enlaces de interés</h5>
+            <ul class="list-unstyled">
+                <li><a href="https://informacion.unad.edu.co/">Acerca de la UNAD</a></li>
+                <li><a href="https://estudios.unad.edu.co/">Financiación de Programas</a></li>
+                <li><a href="https://vinter.unad.edu.co/">Internacionalización</a></li>
+                <li><a href="https://sai.unad.edu.co/">Simulador de Matrícula</a></li>
+                <li><a href="https://investigacion.unad.edu.co/">Investigación</a></li>
+            </ul>
+            </div>
+    
+            <!-- Redes sociales -->
+            <div class="col-md-4 mb-3">
+            <h5>Síguenos en</h5>
+            <a href="https://www.facebook.com/UNADColombia" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/UNADColombia" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/unadcolombia/" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    
+        <div class="text-center mt-3">
+            <small>© 2025 Universidad Nacional Abierta y a Distancia - UNAD</small>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

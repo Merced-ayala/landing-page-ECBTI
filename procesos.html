@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Investigación ECBTI - UNAD</title>
+    <link rel="icon" href="https://www.unad.edu.co/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/procesos.css" />
+    <style>
+        .banner-blanco {
+        background-color: white;
+        }
+
+        .banner-unad {
+        background-color: #005883;
+        color: white;
+        }
+
+        .nav-unad a {
+        color: white;
+        text-decoration: none;
+        margin-right: 1rem;
+        }
+
+        .nav-unad a:hover {
+        text-decoration: none;
+        }
+
+        .seccion-unad {
+        padding: 3rem 1rem;
+        }
+
+        .titulo-seccion {
+        color: #001b4c;
+        }
+
+        .banner-imagen {
+        width: 100%;
+        height: 300px;
+        background-image:url(img/ECBTI-banner.jpg);
+        background-size: cover;
+        }
+
+        .btn-link i.fas.fa-bars {
+        font-size: 1.5rem;
+        color: white;
+        }
+
+        .nav-unad i.fas.fa-home {
+        color: white;
+        }
+
+        .nav-unad a {
+        color: white;
+        font-weight: 500;
+        text-decoration: none;
+        }
+
+        .nav-unad a:hover {
+        text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header class="banner-blanco py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a href="index.html">
+            <img src="img/logo-banner-unad.png" alt="Logo UNAD" class="logo-unad" height="80" />
+        </a>
+        <div class="d-flex">
+            <a href="#" class="enlace-banner"><i class="fas fa-sitemap"></i> Unidades</a>
+            <a href="#" class="enlace-banner"><i class="fas fa-address-book"></i> Directorio</a>
+            <a href="#" class="enlace-banner"><i class="fas fa-map-marker-alt"></i> Centros</a>
+        </div>
+    </div>
+</header>
+
+<header class="banner-unad py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+    <!-- Menú escritorio -->
+    <nav class="nav-unad d-none d-md-flex justify-content-center w-100">
+        <a href="#lineas">Líneas y Macrolíneas</a>
+        <a href="grupos.html">Grupos</a>
+        <a href="#Semilleros">Semilleros</a>
+        <a href="procesos.html">Procesos</a>
+        <a href="convocatorias.html">Convocatorias</a>
+        <a href="#comite">Comité</a>
+    </nav>
+
+    <!-- Botón hamburguesa móvil -->
+        <button class="btn btn-link text-white d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#menuUNAD">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Menú móvil -->
+    <div class="collapse d-md-none mt-2" id="menuUNAD">
+        <div class="container nav-unad flex-column">
+        <a href="#home" class="py-2">
+            <i class="fas fa-home me-2"></i>Inicio
+        </a>
+            <a href="#macrolineas" class="py-1">Macrolíneas y Líneas</a>
+            <a href="grupos.html" class="py-1">Grupos</a>
+            <a href="#semilleros" class="py-1">Semilleros</a>
+            <a href="procesos.html" class="py-1">Procesos</a>
+            <a href="convocatorias.html" class="py-1">Convocatorias</a>
+            <a href="#comite" class="py-1">Comité</a>
+        </div>
+    </div>
+</header>
+
+<!-- Título y descripción general -->
+<section id="titulo-general" class="py-5 w-100">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-3">Ciclo de Vida de Proyectos de Investigación, Innovación y Emprendimiento</h2>
+        <p class="text-muted mb-4">Basado en el procedimiento P-11-2 (Versión 5-12-05-2023)</p>
+        <p class="mb-4">
+        Este procedimiento guía el desarrollo de proyectos de investigación, innovación y emprendimiento aprobados por convocatorias internas y externas,
+        desde el acta de inicio hasta el cierre administrativo o concepto de paz y salvo.
+        </p>
+    </div>
+</section>
+
+<!-- Sección: Fases del Ciclo de Vida -->
+<section class="py-5 w-100" id="seccion-fases" style="background-color: #f9f9f9;">
+    <div class="container">
+        <h3 class="titulo-seccion">Fases del Ciclo de Vida del Proyecto</h3>
+        <ol class="list-group list-group-numbered">
+        <li class="list-group-item"><strong>Acta de inicio:</strong> Se descarga desde SIGIIP, se firma por las partes involucradas y se carga en la plataforma. Representa el 5% del avance.</li>
+        <li class="list-group-item"><strong>Aval del acta:</strong> El líder zonal revisa y valida que los datos del acta estén completos (equipo, productos, presupuesto). Si hay errores, se devuelve para corrección.</li>
+        <li class="list-group-item"><strong>Ejecución:</strong> El equipo desarrolla el proyecto cumpliendo objetivos, actividades y presupuesto. Se hacen informes parciales al 30% y 70%, y se registran productos en SIGIIP, CVLac y GrupLac.</li>
+        <li class="list-group-item"><strong>Seguimiento:</strong> Los líderes verifican avances, cumplimiento de compromisos y calidad de productos. Se generan observaciones que deben subsanarse en 4 días hábiles.</li>
+        <li class="list-group-item"><strong>Finalización:</strong> Se genera el acta final con paz y salvo (si cumple con el 100% de compromisos y productos) o cierre administrativo (si hay incumplimientos). El acta se firma y carga en SIGIIP.</li>
+        </ol>
+    </div>
+</section>
+
+<!-- Sección: Tipologías de Proyectos -->
+<section class="py-5 w-100" id="seccion-tipologias" style=>
+    <div class="container">
+        <h3 class="titulo-seccion text-center">Tipologías de Proyectos</h3>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Cada tarjeta -->
+        <div class="col"><div class="p-4 border rounded h-100"><h5 class="text-primary">Investigación (PI)</h5><p>Unidad básica de gestión investigativa que busca obtener nuevos conocimientos o comprender fenómenos específicos.</p></div></div>
+        <div class="col"><div class="p-4 border rounded h-100"><h5 class="text-primary">Investigación-Creación (PIC)</h5><p>Obras artísticas o literarias como resultado de investigación y creación estética interdisciplinar.</p></div></div>
+        <div class="col"><div class="p-4 border rounded h-100"><h5 class="text-primary">Desarrollo Tecnológico (PDT)</h5><p>Diseño o mejora de tecnología aplicable a problemas sociales, industriales o ambientales.</p></div></div>
+        <div class="col"><div class="p-4 border rounded h-100"><h5 class="text-primary">Innovación (PINN)</h5><p>Creación o mejora de productos, procesos o servicios con validación técnica y social.</p></div></div>
+        <div class="col"><div class="p-4 border rounded h-100"><h5 class="text-primary">Emprendimiento (PEM)</h5><p>Proyectos de creación de negocios o unidades productivas sostenibles.</p></div></div>
+        <div class="col"><div class="p-4 border rounded h-100"><h5 class="text-primary">Inclusión Social / Desarrollo Regional (PIS)</h5><p>Impacto en comunidades vulnerables con enfoque de responsabilidad social y regional.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- Documentos y enlaces -->
+<section class="py-5 w-100" id="seccion-enlaces" style="background-color: #fef6e4;">
+    <div class="container">
+        <h3 class="titulo-seccion">Documentos y Enlaces</h3>
+        <div class="d-flex flex-wrap gap-3">
+        <a class="btn btn-primary" href="https://investigaciones.unad.edu.co/ target="_blank">Ir al SIGIIP</a>
+        <a class="btn btn-outline-secondary" href="/documentos/P-11-2.pdf" target="_blank">Descargar Procedimiento P-11-2 (PDF)</a>
+        </div>
+    </div>
+</section>
+
+<!-- Responsables -->
+<section class="py-5 w-100" id="seccion-responsables" style="background-color: #f3f3f3;">
+    <div class="container">
+        <h3 class="titulo-seccion">Responsables</h3>
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Equipo Investigador – Ejecuta y reporta avances y productos.</li>
+        <li class="list-group-item">Líder Zonal de Investigación / Innovación – Verifica actas y seguimientos.</li>
+        <li class="list-group-item">Líder de Investigación de Escuela – Revisa productos y emite aval final.</li>
+        <li class="list-group-item">Comité de Investigación de Escuela (CIE) – Emite paz y salvo o cierre administrativo.</li>
+        </ul>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer-unad">
+    <div class="container py-4">
+        <div class="row">
+            <!-- Información de contacto -->
+            <div class="col-md-4 mb-3">
+            <h5>Datos de Contacto</h5>
+            <p>
+                Teléfono: 3182194645<br>
+                Sede Principal: Calle 14 Sur # 14 – 23 Barrio Restrepo, Bogotá - Colombia.
+            </p>
+            </div>
+    
+            <!-- Enlaces institucionales -->
+            <div class="col-md-4 mb-3">
+            <h5>Enlaces de interés</h5>
+            <ul class="list-unstyled">
+                <li><a href="https://informacion.unad.edu.co/">Acerca de la UNAD</a></li>
+                <li><a href="https://estudios.unad.edu.co/">Financiación de Programas</a></li>
+                <li><a href="https://vinter.unad.edu.co/">Internacionalización</a></li>
+                <li><a href="https://sai.unad.edu.co/">Simulador de Matrícula</a></li>
+                <li><a href="https://investigacion.unad.edu.co/">Investigación</a></li>
+            </ul>
+            </div>
+    
+            <!-- Redes sociales -->
+            <div class="col-md-4 mb-3">
+            <h5>Síguenos en</h5>
+            <a href="https://www.facebook.com/UNADColombia" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/UNADColombia" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/unadcolombia/" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    
+        <div class="text-center mt-3">
+            <small>© 2025 Universidad Nacional Abierta y a Distancia - UNAD</small>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

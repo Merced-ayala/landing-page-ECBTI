@@ -1,0 +1,215 @@
+:root {
+    --color-azul-unad: #005883;
+    --color-azul-unad-oscuro: #004669;
+    --color-naranja-unad: #F7931E;
+    --color-blanco-unad: #FFFFFF;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos del banner */
+.banner-unad {
+    background-color: var(--color-azul-unad);
+    color: #fff;
+}
+
+/* Menú de navegación (escritorio) */
+.nav-unad {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-unad a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 2rem;
+    display: block;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-unad .fa-home {
+    margin-right: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler i.fas {
+    font-size: 1.5rem;
+}
+
+.enlace-banner {
+    color: var(--color-azul-unad);
+    font-weight: 600;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.enlace-banner:first-child {
+    margin-left: 0;
+}
+
+.enlace-banner i {
+    margin-right: 8px;
+    color: var(--color-naranja-unad);
+    font-size: 1rem;
+}
+
+.enlace-banner:hover {
+    color: var(--color-naranja-unad);
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .nav-unad {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .nav-unad a {
+        margin-left: 0;
+        padding-left: 1rem;
+    }
+}
+
+.seccion-unad {
+    padding: 3rem 1rem;
+}
+
+/* ===== CONTENEDOR GENERAL DE LA PÁGINA DE GRUPOS ===== */
+#contenido-grupos {
+    background-color: #004669;
+    padding: 3rem 1rem;
+}
+
+#intro-grupos h2 {
+    font-size: 3rem;
+    color: var(--color-blanco-unad) !important;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+#intro-grupos p {
+    font-size: 1.2rem;
+    color: var(--color-blanco-unad);
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+}
+/* ===== ESTILO RECTANGULAR REUTILIZABLE PARA BLOQUES ===== */
+.card-unad {
+    background-color: #ffffff;
+    border-left: 6px solid var(--color-naranja-unad);
+    border-radius: 1rem;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+}
+
+/* Opcional: utilidad para centrado vertical entre columnas */
+.card-unad .row {
+    align-items: center;
+}
+
+.intro-grupos {
+    font-size: 2.5rem;
+    color: var(--color-blanco-unad);
+    margin-bottom: 1.5rem;
+}
+
+.lider-grupo  {
+    font-weight: bold;
+    color: var(--color-azul-unad);
+    font-size: 1rem;
+}
+
+.lider-abreviatura {
+    color: var(--color-naranja-unad); /* Gris suave */
+    padding: 0 0.5rem;
+    font-weight: normal;
+}
+
+.lider-nombre {
+    font-weight: normal;
+    color: var(--color-azul-unad); /* Azul grisáceo */
+    font-size: 1rem;
+}
+
+.texto-descripcion {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+}
+
+.card-unad h3 {
+    font-size: 2.4rem;
+    color: var(--color-azul-unad-oscuro);
+    margin-bottom: 2rem;
+    
+}
+
+.card-unad strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 1rem; /* espacio debajo del título */
+    color: var(--color-azul-unad);
+}
+
+/* Estilo para las listas dentro de las cards */
+.card-unad ul {
+    padding-left: 1.2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.card-unad li, p {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.footer-unad {
+    background-color: var(--color-azul-unad);
+    color: #F0B429;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem 1rem;
+}
+
+.footer-unad a {
+    color: #F0B429;
+    text-decoration: none;
+}
+
+.footer-unad a:hover {
+    text-decoration: underline;
+}
+
+.footer-unad h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-unad ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-unad .fab {
+    color: #F0B429;
+    font-size: 1.2rem;
+}
